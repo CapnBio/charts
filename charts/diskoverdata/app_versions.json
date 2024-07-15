@@ -1,17 +1,17 @@
 {
-    "2.0.0": {
+    "2.0.3": {
         "healthy": true,
         "supported": false,
         "healthy_error": null,
-        "location": "/__w/charts/charts/charts/diskoverdata/2.0.0",
-        "last_update": "2024-06-10 15:18:05",
+        "location": "/__w/charts/charts/charts/diskoverdata/2.0.3",
+        "last_update": "2024-07-15 17:46:30",
         "required_features": [
             "definitions/timezone",
-            "normalize/acl",
-            "normalize/ixVolume"
+            "normalize/ixVolume",
+            "normalize/acl"
         ],
-        "human_version": "2.0.1_2.0.0",
-        "version": "2.0.0",
+        "human_version": "2.0.1_2.0.3",
+        "version": "2.0.3",
         "chart_metadata": {
             "name": "diskoverdata",
             "description": "Diskover is used to monitor size/volumes of distributed dataset.",
@@ -19,7 +19,7 @@
                 "title": "Diskover Data"
             },
             "type": "application",
-            "version": "2.0.0",
+            "version": "2.0.3",
             "apiVersion": "v2",
             "appVersion": "2.0.1",
             "kubeVersion": ">=1.16.0-0",
@@ -192,7 +192,7 @@
                     }
                 },
                 {
-                    "variable": "discoverConfig",
+                    "variable": "diskoverConfig",
                     "label": "",
                     "group": "Diskover Data Configuration",
                     "schema": {
@@ -352,7 +352,7 @@
                     }
                 },
                 {
-                    "variable": "discoverNetwork",
+                    "variable": "diskoverNetwork",
                     "label": "",
                     "group": "Network Configuration",
                     "schema": {
@@ -374,7 +374,7 @@
                     }
                 },
                 {
-                    "variable": "discoverStorage",
+                    "variable": "diskoverStorage",
                     "label": "",
                     "group": "Storage Configuration",
                     "schema": {
@@ -1835,7 +1835,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/__w/charts/charts/charts/diskoverdata/1.0.15",
-        "last_update": "2024-06-10 15:18:05",
+        "last_update": "2024-07-15 17:46:30",
         "required_features": [
             "definitions/timezone",
             "normalize/ixVolume"
