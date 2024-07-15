@@ -3,7 +3,7 @@
         "healthy": true,
         "supported": false,
         "healthy_error": null,
-        "location": "/__w/charts/charts/community/qbittorrent/1.2.12",
+        "location": "/__w/charts/charts/community/qbittorrent-vpn/1.2.12",
         "last_update": "2024-06-10 15:18:05",
         "required_features": [
             "normalize/acl",
@@ -15,7 +15,7 @@
             "name": "qbittorrent",
             "description": "The qBittorrent project aims to provide an open-source software alternative to \u00b5Torrent.",
             "annotations": {
-                "title": "qBittorrent"
+                "title": "qBittorrent-vpn"
             },
             "type": "application",
             "version": "1.2.12",
