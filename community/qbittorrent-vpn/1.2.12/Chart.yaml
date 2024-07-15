@@ -2,7 +2,7 @@ name: qbittorrent
 description: The qBittorrent project aims to provide an open-source software alternative
   to µTorrent.
 annotations:
-  title: qBittorrent
+  title: qBittorrent-vpn
 type: application
 version: 1.2.12
 apiVersion: v2
